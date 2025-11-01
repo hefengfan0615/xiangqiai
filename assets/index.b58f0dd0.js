@@ -14318,7 +14318,7 @@ function kS(e={}) {
     ;
     async function h() {
         if ("serviceWorker"in navigator) {
-            const {Workbox: p, messageSW: v} = await ni(()=>import("./workbox-window.js"), []);
+            const {Workbox: p, messageSW: v} = await ni(()=>import("./workbox-window.prod.es5.983a7963.js"), []);
             c = async()=>{
                 l && l.waiting && await v(l.waiting, {
                     type: "SKIP_WAITING"
